@@ -1,0 +1,478 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://projet.org"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://projet.org">
+    <Prefix name="" IRI="http://projet.org#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class abbreviatedIRI=":Number"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c1_11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c1_12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c1_13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c1_21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c1_22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c1_23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c2_11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c2_12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c2_13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c2_21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c2_22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c2_23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c3_11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c3_12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c3_13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c3_21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c3_22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c3_23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c4_11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c4_12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c4_13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c4_21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c4_22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c4_23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c5_11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c5_12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c5_13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c5_21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c5_22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c5_23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c6_11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c6_12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c6_13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c6_21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c6_22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":c6_23"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class abbreviatedIRI=":Number"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#1"/>
+            <NamedIndividual IRI="#2"/>
+            <NamedIndividual IRI="#3"/>
+            <NamedIndividual IRI="#4"/>
+            <NamedIndividual IRI="#5"/>
+            <NamedIndividual IRI="#6"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual IRI="#2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual IRI="#3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual IRI="#4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual IRI="#5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual IRI="#6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c1_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c1_12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c1_13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c1_21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c1_22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c1_23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c2_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c2_12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c2_13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c2_21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c2_22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c2_23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c3_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c3_12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c3_13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c3_21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c3_22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c3_23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c4_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c4_12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c4_13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c4_21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c4_22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c4_23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c5_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c5_12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c5_13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c5_21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c5_22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c5_23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c6_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c6_12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c6_13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c6_21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c6_22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Number"/>
+        <NamedIndividual abbreviatedIRI=":c6_23"/>
+    </ClassAssertion>
+
+    {content}
+
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#3"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#5"/>
+        <NamedIndividual IRI="#6"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c1_11"/>
+        <NamedIndividual abbreviatedIRI=":c1_12"/>
+        <NamedIndividual abbreviatedIRI=":c1_13"/>
+        <NamedIndividual abbreviatedIRI=":c1_21"/>
+        <NamedIndividual abbreviatedIRI=":c1_22"/>
+        <NamedIndividual abbreviatedIRI=":c1_23"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c1_11"/>
+        <NamedIndividual abbreviatedIRI=":c1_12"/>
+        <NamedIndividual abbreviatedIRI=":c1_13"/>
+        <NamedIndividual abbreviatedIRI=":c2_11"/>
+        <NamedIndividual abbreviatedIRI=":c2_12"/>
+        <NamedIndividual abbreviatedIRI=":c2_13"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c1_11"/>
+        <NamedIndividual abbreviatedIRI=":c1_21"/>
+        <NamedIndividual abbreviatedIRI=":c3_11"/>
+        <NamedIndividual abbreviatedIRI=":c3_21"/>
+        <NamedIndividual abbreviatedIRI=":c5_11"/>
+        <NamedIndividual abbreviatedIRI=":c5_21"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c1_12"/>
+        <NamedIndividual abbreviatedIRI=":c1_22"/>
+        <NamedIndividual abbreviatedIRI=":c3_12"/>
+        <NamedIndividual abbreviatedIRI=":c3_22"/>
+        <NamedIndividual abbreviatedIRI=":c5_12"/>
+        <NamedIndividual abbreviatedIRI=":c5_22"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c1_13"/>
+        <NamedIndividual abbreviatedIRI=":c1_23"/>
+        <NamedIndividual abbreviatedIRI=":c3_13"/>
+        <NamedIndividual abbreviatedIRI=":c3_23"/>
+        <NamedIndividual abbreviatedIRI=":c5_13"/>
+        <NamedIndividual abbreviatedIRI=":c5_23"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c1_21"/>
+        <NamedIndividual abbreviatedIRI=":c1_22"/>
+        <NamedIndividual abbreviatedIRI=":c1_23"/>
+        <NamedIndividual abbreviatedIRI=":c2_21"/>
+        <NamedIndividual abbreviatedIRI=":c2_22"/>
+        <NamedIndividual abbreviatedIRI=":c2_23"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c2_11"/>
+        <NamedIndividual abbreviatedIRI=":c2_12"/>
+        <NamedIndividual abbreviatedIRI=":c2_13"/>
+        <NamedIndividual abbreviatedIRI=":c2_21"/>
+        <NamedIndividual abbreviatedIRI=":c2_22"/>
+        <NamedIndividual abbreviatedIRI=":c2_23"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c2_11"/>
+        <NamedIndividual abbreviatedIRI=":c2_21"/>
+        <NamedIndividual abbreviatedIRI=":c4_11"/>
+        <NamedIndividual abbreviatedIRI=":c4_21"/>
+        <NamedIndividual abbreviatedIRI=":c6_11"/>
+        <NamedIndividual abbreviatedIRI=":c6_21"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c2_12"/>
+        <NamedIndividual abbreviatedIRI=":c2_22"/>
+        <NamedIndividual abbreviatedIRI=":c4_12"/>
+        <NamedIndividual abbreviatedIRI=":c4_22"/>
+        <NamedIndividual abbreviatedIRI=":c6_12"/>
+        <NamedIndividual abbreviatedIRI=":c6_22"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c2_13"/>
+        <NamedIndividual abbreviatedIRI=":c2_23"/>
+        <NamedIndividual abbreviatedIRI=":c4_13"/>
+        <NamedIndividual abbreviatedIRI=":c4_23"/>
+        <NamedIndividual abbreviatedIRI=":c6_13"/>
+        <NamedIndividual abbreviatedIRI=":c6_23"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c3_11"/>
+        <NamedIndividual abbreviatedIRI=":c3_12"/>
+        <NamedIndividual abbreviatedIRI=":c3_13"/>
+        <NamedIndividual abbreviatedIRI=":c3_21"/>
+        <NamedIndividual abbreviatedIRI=":c3_22"/>
+        <NamedIndividual abbreviatedIRI=":c3_23"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c3_11"/>
+        <NamedIndividual abbreviatedIRI=":c3_12"/>
+        <NamedIndividual abbreviatedIRI=":c3_13"/>
+        <NamedIndividual abbreviatedIRI=":c4_11"/>
+        <NamedIndividual abbreviatedIRI=":c4_12"/>
+        <NamedIndividual abbreviatedIRI=":c4_13"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c3_21"/>
+        <NamedIndividual abbreviatedIRI=":c3_22"/>
+        <NamedIndividual abbreviatedIRI=":c3_23"/>
+        <NamedIndividual abbreviatedIRI=":c4_21"/>
+        <NamedIndividual abbreviatedIRI=":c4_22"/>
+        <NamedIndividual abbreviatedIRI=":c4_23"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c4_11"/>
+        <NamedIndividual abbreviatedIRI=":c4_12"/>
+        <NamedIndividual abbreviatedIRI=":c4_13"/>
+        <NamedIndividual abbreviatedIRI=":c4_21"/>
+        <NamedIndividual abbreviatedIRI=":c4_22"/>
+        <NamedIndividual abbreviatedIRI=":c4_23"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c5_11"/>
+        <NamedIndividual abbreviatedIRI=":c5_12"/>
+        <NamedIndividual abbreviatedIRI=":c5_13"/>
+        <NamedIndividual abbreviatedIRI=":c5_21"/>
+        <NamedIndividual abbreviatedIRI=":c5_22"/>
+        <NamedIndividual abbreviatedIRI=":c5_23"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c5_11"/>
+        <NamedIndividual abbreviatedIRI=":c5_12"/>
+        <NamedIndividual abbreviatedIRI=":c5_13"/>
+        <NamedIndividual abbreviatedIRI=":c6_11"/>
+        <NamedIndividual abbreviatedIRI=":c6_12"/>
+        <NamedIndividual abbreviatedIRI=":c6_13"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c5_21"/>
+        <NamedIndividual abbreviatedIRI=":c5_22"/>
+        <NamedIndividual abbreviatedIRI=":c5_23"/>
+        <NamedIndividual abbreviatedIRI=":c6_21"/>
+        <NamedIndividual abbreviatedIRI=":c6_22"/>
+        <NamedIndividual abbreviatedIRI=":c6_23"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual abbreviatedIRI=":c6_11"/>
+        <NamedIndividual abbreviatedIRI=":c6_12"/>
+        <NamedIndividual abbreviatedIRI=":c6_13"/>
+        <NamedIndividual abbreviatedIRI=":c6_21"/>
+        <NamedIndividual abbreviatedIRI=":c6_22"/>
+        <NamedIndividual abbreviatedIRI=":c6_23"/>
+    </DifferentIndividuals>
+</Ontology>
